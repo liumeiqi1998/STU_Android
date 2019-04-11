@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">STU</string>
+    <string name="publish">发布</string>
+    <string name="use_local">使用本机</string>
+    <string name="use_server">使用远程服务器</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="Tencent">使用腾讯服务器</string>
+    <string name="Alibaba">使用阿里服务器</string>
+    <string name="Localhost">使用本机服务器</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".yyh.activity.SuccessActivity">
+
+    <LinearLayout
+        android:id="@+id/buttom_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/ershou"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ershou"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="5dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/daina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/daina"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="5dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/pindan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pindan"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="5dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+            <ImageButton
+                android:id="@+id/chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/chat"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="5dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            >
+            <ImageButton
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/setting"
+                android:contentDescription="@string/app_name"
+                android:layout_margin="5dp"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/buttom_bar_group"
+        android:background="#111"
+        />
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line" />
+
+
+</RelativeLayout>
